@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const HelloWorld = () => {
   return (
     <div>
-      <h1>Hello World</h1>;
+      <a href={'http://google.com'}>Hello World</a>;
     </div>
-  );
-};
+  )
+}
 
-export default HelloWorld;
+export default HelloWorld
