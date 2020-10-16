@@ -2,8 +2,8 @@ import React from 'react'
 
 const Main_Photo = () => {
   return (
-    <div>
-      <p>test</p>
+    <div className="pic">
+      <img src={'xxx.xx'} alt={'stadium'} />
     </div>
   )
 }
