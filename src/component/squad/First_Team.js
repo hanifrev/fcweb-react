@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Goalkeeper from '../../function_players/Goalkeeper'
 
 const First_Team = () => {
+  const [state, setState] = useState()
+  // need to resolve more, learn about React route to create multiple pages in react app
   return (
     <div className="main">
       <h2>First Team Squad</h2>

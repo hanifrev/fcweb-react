@@ -25,7 +25,7 @@ const Header = () => {
           <li className="li">
             <a href={'https://google.com'}>Teams</a>
             <ul className="dropdown">
-              <a href={'https://google.com'}>First Team</a>
+              <a href={'./component/squad/First_Team.js'}>First Team</a>
               <a href={'https://google.com'}>Under 23 Team</a>
               <a href={'https://google.com'}>U-18</a>
             </ul>
