@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -6,10 +7,14 @@ const Header = () => {
       <nav className="nav">
         <ul>
           <li className="li">
-            <a href={'https://google.com'}>News</a>
+            <a href={'#news'}>News</a>
             <ul className="dropdown">
-              <a href={'https://google.com'}>Latest News</a>
-              <a href={'https://google.com'}>News Acrhive</a>
+              <Link to={'//www.google.com'} target="_blank">
+                Latest News
+              </Link>
+              <Link to={'//www.google.com'} target="_blank">
+                News Archive
+              </Link>
             </ul>
           </li>
 
@@ -25,7 +30,7 @@ const Header = () => {
           <li className="li">
             <a href={'https://google.com'}>Teams</a>
             <ul className="dropdown">
-              <a href={'./component/squad/First_Team.js'}>First Team</a>
+              <Link to="/First_Team">First Team</Link>
               <a href={'https://google.com'}>Under 23 Team</a>
               <a href={'https://google.com'}>U-18</a>
             </ul>
