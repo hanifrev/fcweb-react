@@ -12,13 +12,16 @@ import HelloWorld from './component/HelloWorld'
 
 const App = () => {
   return (
-    <div className="main">
+    <div className="body">
       <Header />
       <HelloWorld />
-      <Main_Photo />
       <Route exact path="/First_Team" component={First_Team} />
-      <Recent_Match />
-      <SomeColumn />
+      <div className="main">
+        <Route exact component={() => <Main_Photo />} />
+        <Main_Photo />
+        <Recent_Match />
+        <SomeColumn />
+      </div>
       <Footer />
     </div>
   )
