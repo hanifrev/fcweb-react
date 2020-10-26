@@ -3,6 +3,7 @@ import './styles/styles.css'
 import { Route } from 'react-router-dom'
 
 import Header from './component/Header'
+import NavBar from './component/NavBar'
 import Main_Photo from './component/Main_Photo'
 import Footer from './component/Footer'
 import Recent_Match from './component/Recent_Match'
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <div className="body">
       <Header />
+      <NavBar />
       <HelloWorld />
       <Route exact path="/First_Team" component={First_Team} />
       <div className="main">
