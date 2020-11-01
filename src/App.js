@@ -20,7 +20,6 @@ const App = () => {
       <Route exact path="/First_Team" component={First_Team} />
       <div className="main">
         <Route exact component={() => <Main_Photo />} />
-        <Main_Photo />
         <Recent_Match />
         <SomeColumn />
       </div>

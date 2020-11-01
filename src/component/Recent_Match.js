@@ -30,8 +30,8 @@ const Recent_Match = () => {
   // }, [])
 
   return (
-    <div>
-      <p>xxx</p>
+    <div className="recent-match">
+      {/* <p>xxx</p> */}
       {loading ? (
         <div>loading...</div>
       ) : (

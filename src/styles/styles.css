@@ -98,7 +98,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  width: 80%;
+  width: 60%;
 }
 
 .recent-match {
@@ -139,9 +139,20 @@ body {
 .somecol {
   display: grid;
   width: auto;
+  text-align: justify;
+  line-height: 25px;
   grid-template-rows: auto;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
   grid-template-areas: 'firstcol' 'secondcol' 'thirdcol';
+}
+.first-col {
+  padding: 20px;
+}
+.second-col {
+  padding: 20px;
+}
+.third-col {
+  padding: 20px;
 }
 
 @media (max-width: 640px) {
